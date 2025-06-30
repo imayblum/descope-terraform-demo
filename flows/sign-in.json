@@ -32,7 +32,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnaZDjyYO9D4JBQo4Oq9KJkay",
+        "screenId": "SC2zEcfWjnxxinfkUrtlE36cSkf8z",
         "type": "screen",
         "view": {
           "x": 168,
@@ -168,7 +168,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnacM1qKPTthEXWyiQpbR7Ijj",
+        "screenId": "SC2zEcfY90CvYPwliAuiFMPKp05Xy",
         "type": "screen",
         "view": {
           "x": 684,
@@ -179,7 +179,7 @@
         "id": "13",
         "name": "Verified Successfully",
         "next": {},
-        "screenId": "SC2ybnadUEBvCm0kgqSFpJlzqVUQn",
+        "screenId": "SC2zEcfYzk3ZMShAO0wRC0ymNzR27",
         "type": "screen",
         "view": {
           "x": 1176,
@@ -435,7 +435,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnadfVNveH4GmnIVgt8DD0tLg",
+        "screenId": "SC2zEcfZ7YJ337OWConE6MjnQtAyE",
         "type": "screen",
         "view": {
           "x": 2364,
@@ -471,6 +471,7 @@
       }
     ]
   },
+  "references": {},
   "screens": [
     {
       "contents": {
@@ -890,7 +891,7 @@
           "subType": "social"
         }
       ],
-      "screenId": "SC2ybnaZDjyYO9D4JBQo4Oq9KJkay"
+      "screenId": "SC2zEcfWjnxxinfkUrtlE36cSkf8z"
     },
     {
       "contents": {
@@ -1097,7 +1098,7 @@
           "label": "Send again"
         }
       ],
-      "screenId": "SC2ybnacM1qKPTthEXWyiQpbR7Ijj"
+      "screenId": "SC2zEcfY90CvYPwliAuiFMPKp05Xy"
     },
     {
       "contents": {
@@ -1189,8 +1190,7 @@
           }
         }
       },
-      "interactions": [],
-      "screenId": "SC2ybnadUEBvCm0kgqSFpJlzqVUQn"
+      "screenId": "SC2zEcfYzk3ZMShAO0wRC0ymNzR27"
     },
     {
       "contents": {
@@ -1439,7 +1439,7 @@
           "label": "Send again"
         }
       ],
-      "screenId": "SC2ybnadfVNveH4GmnIVgt8DD0tLg"
+      "screenId": "SC2zEcfZ7YJ337OWConE6MjnQtAyE"
     }
   ]
 }

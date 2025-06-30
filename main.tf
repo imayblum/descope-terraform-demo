@@ -41,6 +41,13 @@ resource "descope_project" "project" {
           password = "password1"
         }
       }
+    ],
+    "http": [
+      {
+        name        = "My Custom Connector"
+        description = "Custom HTTP Connector"
+        base_url    = "https://api.example.com"
+      }
     ]
   }
 }

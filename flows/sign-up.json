@@ -32,7 +32,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnacNdRjoh7K1WVkQZrbw0W5f",
+        "screenId": "SC2zEcfae8lkrW8PFW1tC0d7CNMNk",
         "type": "screen",
         "view": {
           "x": 180,
@@ -50,7 +50,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnac7XaH4tSVWa6MD59zq7bd7",
+        "screenId": "SC2zEcfYlNvyW1GEFo2T11H2zPgxd",
         "type": "screen",
         "view": {
           "x": 3156,
@@ -186,7 +186,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnaXeHd2RVkQ0U4NEZCPZYdXS",
+        "screenId": "SC2zEcfbYqoeEfH3K3WIOaGnhGUDe",
         "type": "screen",
         "view": {
           "x": 624,
@@ -197,7 +197,7 @@
         "id": "18",
         "name": "Verified Successfully",
         "next": {},
-        "screenId": "SC2ybnacvr5o2sjkDQwLTUrXei0If",
+        "screenId": "SC2zEcfWgtFFsCkQo4jsLFiY4WFRI",
         "type": "screen",
         "view": {
           "x": 1080,
@@ -244,7 +244,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnaasbGVewaTEiGmPKow11MdA",
+        "screenId": "SC2zEcfbM7BE2IQgYV2xCIWlaEXX7",
         "type": "screen",
         "view": {
           "x": 2388,
@@ -492,7 +492,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnabw6sjt6dGHniSvdXwyvpvI",
+        "screenId": "SC2zEcfVpIQX7re4U0Rz6TjR9Z4P7",
         "type": "screen",
         "view": {
           "x": 1548,
@@ -503,7 +503,7 @@
         "id": "26",
         "name": "Verified Successfully",
         "next": {},
-        "screenId": "SC2ybnadbEWRaXZWz40Emo4pS7WqL",
+        "screenId": "SC2zEcfbRDIZGKcTblLxX5DVnvmuH",
         "type": "screen",
         "view": {
           "x": 2088,
@@ -656,7 +656,7 @@
             }
           ]
         },
-        "screenId": "SC2ybnaY9An7Zcqm2tcCvtBYtZVwI",
+        "screenId": "SC2zEcfcl1X0SYbrArWLbWwIxLFEw",
         "type": "screen",
         "view": {
           "x": 1512,
@@ -692,730 +692,8 @@
       }
     ]
   },
+  "references": {},
   "screens": [
-    {
-      "contents": {
-        "EbW8KMdjAx": {
-          "custom": {
-            "type": "button"
-          },
-          "displayName": "Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "WzZtEzEpyY",
-          "props": {
-            "children": "Choose another authentication method",
-            "data-type": "button",
-            "formNoValidate": false,
-            "full-width": true,
-            "id": "EbW8KMdjAx",
-            "mode": "primary",
-            "size": "sm",
-            "variant": "link"
-          },
-          "type": {
-            "resolvedName": "Button"
-          }
-        },
-        "LgBFKYoM2h": {
-          "custom": {},
-          "displayName": "Error Message",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "data-type": "error-message",
-            "full-width": false,
-            "id": "LgBFKYoM2h",
-            "italic": false,
-            "mode": "error",
-            "text-align": "center",
-            "variant": "body1"
-          },
-          "type": {
-            "resolvedName": "ErrorMessage"
-          }
-        },
-        "R4ubbo8hKX": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "Click the link in the email to continue",
-            "full-width": false,
-            "id": "R4ubbo8hKX",
-            "italic": false,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "subtitle2"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "ROOT": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "hLL454bn-h",
-            "R4ubbo8hKX",
-            "lpP_khmMrA",
-            "WzZtEzEpyY",
-            "LgBFKYoM2h"
-          ],
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "ROOT",
-            "justify": "center",
-            "paddingX": "4",
-            "paddingY": "4",
-            "spaceBetween": "5",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "WzZtEzEpyY": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "resend",
-            "EbW8KMdjAx"
-          ],
-          "parent": "ROOT",
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "WzZtEzEpyY",
-            "justify": "start",
-            "paddingX": "4",
-            "paddingY": "4",
-            "spaceBetween": "1.5",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "hLL454bn-h": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "We've sent a verification link to {{sentTo.maskedEmail}}",
-            "full-width": false,
-            "id": "hLL454bn-h",
-            "italic": false,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "subtitle1"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "lpP_khmMrA": {
-          "custom": {
-            "type": "polling"
-          },
-          "displayName": "Polling",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "color": "primary",
-            "data-type": "polling",
-            "id": "lpP_khmMrA",
-            "size": "md",
-            "variant": "linear"
-          },
-          "type": {
-            "resolvedName": "PollingLoader"
-          }
-        },
-        "resend": {
-          "custom": {
-            "type": "button"
-          },
-          "displayName": "Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "WzZtEzEpyY",
-          "props": {
-            "children": "Send again",
-            "data-type": "button",
-            "formNoValidate": false,
-            "full-width": true,
-            "id": "resend",
-            "mode": "primary",
-            "size": "sm",
-            "variant": "contained"
-          },
-          "type": {
-            "resolvedName": "Button"
-          }
-        }
-      },
-      "interactions": [
-        {
-          "id": "EbW8KMdjAx",
-          "label": "Choose another authentication method"
-        },
-        {
-          "id": "polling",
-          "label": "Polling"
-        },
-        {
-          "id": "resend",
-          "label": "Send again"
-        }
-      ],
-      "screenId": "SC2ybnaXeHd2RVkQ0U4NEZCPZYdXS"
-    },
-    {
-      "contents": {
-        "5-PfLGMOsW": {
-          "custom": {},
-          "displayName": "Phone Input",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "lG6BatRNbw",
-          "props": {
-            "bordered": true,
-            "data-errormessage-pattern-mismatch": "Must be a valid phone number",
-            "default-code": "autoDetect",
-            "full-width": true,
-            "id": "5-PfLGMOsW",
-            "label": "",
-            "max": 100,
-            "name": "phone",
-            "pattern": "^\\+?\\d+$",
-            "phone-input-placeholder": "Phone number *",
-            "required": true,
-            "size": "md",
-            "type": "tel"
-          },
-          "type": {
-            "resolvedName": "Phone"
-          }
-        },
-        "5ouALpXpNi": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "PB4s0Xy7gp"
-          ],
-          "parent": "viwDC1zXs_",
-          "props": {
-            "align": "start",
-            "background": "#ffffff00",
-            "data-editor-type": "container",
-            "direction": "row",
-            "id": "5ouALpXpNi",
-            "justify": "center",
-            "paddingX": "2",
-            "paddingY": "0",
-            "spaceBetween": "4",
-            "width": "25%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "PB4s0Xy7gp": {
-          "custom": {
-            "type": "button"
-          },
-          "displayName": "Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "5ouALpXpNi",
-          "props": {
-            "children": "Verify",
-            "data-type": "button",
-            "formNoValidate": false,
-            "full-width": true,
-            "id": "PB4s0Xy7gp",
-            "mode": "primary",
-            "size": "md",
-            "variant": "contained"
-          },
-          "type": {
-            "resolvedName": "Button"
-          }
-        },
-        "ROOT": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "pDs3VX2pc6",
-            "SRaw95nrC8",
-            "viwDC1zXs_",
-            "oTK5THV1cc"
-          ],
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "ROOT",
-            "justify": "center",
-            "paddingX": "4",
-            "paddingY": "8",
-            "spaceBetween": "4",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "SRaw95nrC8": {
-          "custom": {
-            "type": "input"
-          },
-          "displayName": "Full Name Input",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "bordered": true,
-            "full-width": true,
-            "id": "SRaw95nrC8",
-            "label": "",
-            "max": 100,
-            "name": "fullName",
-            "placeholder": "Full Name",
-            "required": false,
-            "size": "md",
-            "type": "text"
-          },
-          "type": {
-            "resolvedName": "FullNameInput"
-          }
-        },
-        "lG6BatRNbw": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "5-PfLGMOsW"
-          ],
-          "parent": "viwDC1zXs_",
-          "props": {
-            "align": "start",
-            "background": "#ffffff00",
-            "data-editor-type": "container",
-            "direction": "row",
-            "id": "lG6BatRNbw",
-            "justify": "center",
-            "paddingX": "0",
-            "paddingY": "0",
-            "spaceBetween": "4",
-            "width": "75%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "oTK5THV1cc": {
-          "custom": {},
-          "displayName": "Error Message",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "data-type": "error-message",
-            "full-width": false,
-            "id": "oTK5THV1cc",
-            "italic": false,
-            "mode": "error",
-            "text-align": "center",
-            "variant": "body1"
-          },
-          "type": {
-            "resolvedName": "ErrorMessage"
-          }
-        },
-        "pDs3VX2pc6": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "To complete your sign up, please provide the following information",
-            "full-width": false,
-            "id": "pDs3VX2pc6",
-            "italic": false,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "subtitle2"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "viwDC1zXs_": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "lG6BatRNbw",
-            "5ouALpXpNi"
-          ],
-          "parent": "ROOT",
-          "props": {
-            "align": "center",
-            "background": "#ffffff00",
-            "data-editor-type": "container",
-            "direction": "row",
-            "id": "viwDC1zXs_",
-            "justify": "center",
-            "paddingX": "0",
-            "paddingY": "0",
-            "spaceBetween": "0",
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        }
-      },
-      "interactions": [
-        {
-          "id": "PB4s0Xy7gp",
-          "label": "Verify"
-        }
-      ],
-      "screenId": "SC2ybnaY9An7Zcqm2tcCvtBYtZVwI"
-    },
-    {
-      "contents": {
-        "CGBTyRvfUF": {
-          "custom": {
-            "type": "oneTimeCode"
-          },
-          "displayName": "One Time Code",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "yZNZ2ZVVu_",
-          "props": {
-            "bordered": true,
-            "data-auto-submit": true,
-            "data-errormessage-pattern-mismatch": "Must be a 6 digit number",
-            "data-errormessage-value-missing": "Please fill out this field.",
-            "digits": 6,
-            "fullWidth": false,
-            "id": "CGBTyRvfUF",
-            "label": "",
-            "name": "code",
-            "required": true,
-            "size": "lg",
-            "type": "tel"
-          },
-          "type": {
-            "resolvedName": "CodeInput"
-          }
-        },
-        "FJm7_vlTEW": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "resend",
-            "pnOqEGpL1b"
-          ],
-          "parent": "yZNZ2ZVVu_",
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "FJm7_vlTEW",
-            "justify": "start",
-            "paddingX": "3",
-            "paddingY": "0",
-            "spaceBetween": "0",
-            "st-items-grow": 0,
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "QW6CWy1Z9D": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "fpDoUMsBUm"
-          ],
-          "parent": "yZNZ2ZVVu_",
-          "props": {
-            "align": "start",
-            "background": "#ffffff00",
-            "data-editor-type": "container",
-            "direction": "row",
-            "id": "QW6CWy1Z9D",
-            "justify": "center",
-            "paddingX": "4",
-            "paddingY": "4",
-            "spaceBetween": "1",
-            "st-items-grow": 0,
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "ROOT": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "auED4dEJkJ",
-            "eBGiu9cYSb",
-            "yZNZ2ZVVu_"
-          ],
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "ROOT",
-            "justify": "center",
-            "paddingX": "4",
-            "paddingY": "4",
-            "spaceBetween": "5",
-            "st-items-grow": 0,
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        },
-        "auED4dEJkJ": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "We've sent a message containing a 6-digit code to {{sentTo.maskedPhone}}",
-            "data-errormessage-value-missing": "Please fill out this field.",
-            "full-width": false,
-            "id": "auED4dEJkJ",
-            "isEnriched": true,
-            "italic": false,
-            "link-target-blank": true,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "subtitle1"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "eBGiu9cYSb": {
-          "custom": {},
-          "displayName": "Text",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "children": "Enter it below\n\n",
-            "data-errormessage-value-missing": "Please fill out this field.",
-            "full-width": false,
-            "id": "eBGiu9cYSb",
-            "isEnriched": true,
-            "italic": false,
-            "link-target-blank": true,
-            "mode": "primary",
-            "text-align": "center",
-            "variant": "subtitle2"
-          },
-          "type": {
-            "resolvedName": "Text"
-          }
-        },
-        "fpDoUMsBUm": {
-          "custom": {},
-          "displayName": "Error Message",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "QW6CWy1Z9D",
-          "props": {
-            "data-type": "error-message",
-            "full-width": false,
-            "hide-when-empty": true,
-            "id": "fpDoUMsBUm",
-            "italic": false,
-            "mode": "error",
-            "text-align": "center",
-            "variant": "body1"
-          },
-          "type": {
-            "resolvedName": "ErrorMessage"
-          }
-        },
-        "pnOqEGpL1b": {
-          "custom": {
-            "type": "button"
-          },
-          "displayName": "Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "FJm7_vlTEW",
-          "props": {
-            "children": "Use a different number",
-            "color": "primary",
-            "data-type": "button",
-            "formNoValidate": true,
-            "full-width": true,
-            "id": "pnOqEGpL1b",
-            "mode": "primary",
-            "size": "sm",
-            "variant": "link"
-          },
-          "type": {
-            "resolvedName": "Button"
-          }
-        },
-        "resend": {
-          "custom": {
-            "type": "button"
-          },
-          "displayName": "Button",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "FJm7_vlTEW",
-          "props": {
-            "children": "Send again",
-            "color": "primary",
-            "data-type": "button",
-            "formNoValidate": true,
-            "full-width": true,
-            "id": "resend",
-            "mode": "primary",
-            "size": "sm",
-            "variant": "link"
-          },
-          "type": {
-            "resolvedName": "Button"
-          }
-        },
-        "yZNZ2ZVVu_": {
-          "custom": {},
-          "displayName": "Container",
-          "hidden": false,
-          "isCanvas": true,
-          "linkedNodes": {},
-          "nodes": [
-            "CGBTyRvfUF",
-            "QW6CWy1Z9D",
-            "FJm7_vlTEW"
-          ],
-          "parent": "ROOT",
-          "props": {
-            "align": "center",
-            "background": "",
-            "data-editor-type": "container",
-            "direction": "column",
-            "id": "yZNZ2ZVVu_",
-            "justify": "start",
-            "paddingX": "4",
-            "paddingY": "4",
-            "spaceBetween": "2.5",
-            "st-items-grow": 0,
-            "width": "100%"
-          },
-          "type": {
-            "resolvedName": "Container"
-          }
-        }
-      },
-      "interactions": [
-        {
-          "id": "CGBTyRvfUF",
-          "label": "Verify OTP code"
-        },
-        {
-          "id": "pnOqEGpL1b",
-          "label": "Use a different number"
-        },
-        {
-          "id": "resend",
-          "label": "Send again"
-        }
-      ],
-      "screenId": "SC2ybnaasbGVewaTEiGmPKow11MdA"
-    },
     {
       "contents": {
         "7ekqaI_T5T": {
@@ -1592,7 +870,99 @@
           "label": "Send again"
         }
       ],
-      "screenId": "SC2ybnabw6sjt6dGHniSvdXwyvpvI"
+      "screenId": "SC2zEcfVpIQX7re4U0Rz6TjR9Z4P7"
+    },
+    {
+      "contents": {
+        "1sMmkeVxVT": {
+          "custom": {},
+          "displayName": "Error Message",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "data-type": "error-message",
+            "full-width": false,
+            "id": "1sMmkeVxVT",
+            "italic": false,
+            "mode": "error",
+            "text-align": "center",
+            "variant": "body1"
+          },
+          "type": {
+            "resolvedName": "ErrorMessage"
+          }
+        },
+        "LmrSIGOWZb": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "You're authenticated, you can close this window now",
+            "full-width": false,
+            "id": "LmrSIGOWZb",
+            "italic": false,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "subtitle1"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "PUZgvFyUAB": {
+          "custom": {},
+          "displayName": "Image",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "alt": "Image",
+            "height": "50px",
+            "id": "PUZgvFyUAB",
+            "src": "https://imgs.descope.com/flows/common/v1/green-checkmark.png"
+          },
+          "type": {
+            "resolvedName": "Image"
+          }
+        },
+        "ROOT": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "PUZgvFyUAB",
+            "LmrSIGOWZb",
+            "1sMmkeVxVT"
+          ],
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "ROOT",
+            "justify": "center",
+            "paddingX": "4",
+            "paddingY": "8",
+            "spaceBetween": "4",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        }
+      },
+      "screenId": "SC2zEcfWgtFFsCkQo4jsLFiY4WFRI"
     },
     {
       "contents": {
@@ -1768,7 +1138,7 @@
           "label": "Submit"
         }
       ],
-      "screenId": "SC2ybnac7XaH4tSVWa6MD59zq7bd7"
+      "screenId": "SC2zEcfYlNvyW1GEFo2T11H2zPgxd"
     },
     {
       "contents": {
@@ -2191,7 +1561,286 @@
           "label": "Sign Up"
         }
       ],
-      "screenId": "SC2ybnacNdRjoh7K1WVkQZrbw0W5f"
+      "screenId": "SC2zEcfae8lkrW8PFW1tC0d7CNMNk"
+    },
+    {
+      "contents": {
+        "CGBTyRvfUF": {
+          "custom": {
+            "type": "oneTimeCode"
+          },
+          "displayName": "One Time Code",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "yZNZ2ZVVu_",
+          "props": {
+            "bordered": true,
+            "data-auto-submit": true,
+            "data-errormessage-pattern-mismatch": "Must be a 6 digit number",
+            "data-errormessage-value-missing": "Please fill out this field.",
+            "digits": 6,
+            "fullWidth": false,
+            "id": "CGBTyRvfUF",
+            "label": "",
+            "name": "code",
+            "required": true,
+            "size": "lg",
+            "type": "tel"
+          },
+          "type": {
+            "resolvedName": "CodeInput"
+          }
+        },
+        "FJm7_vlTEW": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "resend",
+            "pnOqEGpL1b"
+          ],
+          "parent": "yZNZ2ZVVu_",
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "FJm7_vlTEW",
+            "justify": "start",
+            "paddingX": "3",
+            "paddingY": "0",
+            "spaceBetween": "0",
+            "st-items-grow": 0,
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "QW6CWy1Z9D": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "fpDoUMsBUm"
+          ],
+          "parent": "yZNZ2ZVVu_",
+          "props": {
+            "align": "start",
+            "background": "#ffffff00",
+            "data-editor-type": "container",
+            "direction": "row",
+            "id": "QW6CWy1Z9D",
+            "justify": "center",
+            "paddingX": "4",
+            "paddingY": "4",
+            "spaceBetween": "1",
+            "st-items-grow": 0,
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "ROOT": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "auED4dEJkJ",
+            "eBGiu9cYSb",
+            "yZNZ2ZVVu_"
+          ],
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "ROOT",
+            "justify": "center",
+            "paddingX": "4",
+            "paddingY": "4",
+            "spaceBetween": "5",
+            "st-items-grow": 0,
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "auED4dEJkJ": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "We've sent a message containing a 6-digit code to {{sentTo.maskedPhone}}",
+            "data-errormessage-value-missing": "Please fill out this field.",
+            "full-width": false,
+            "id": "auED4dEJkJ",
+            "isEnriched": true,
+            "italic": false,
+            "link-target-blank": true,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "subtitle1"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "eBGiu9cYSb": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "Enter it below\n\n",
+            "data-errormessage-value-missing": "Please fill out this field.",
+            "full-width": false,
+            "id": "eBGiu9cYSb",
+            "isEnriched": true,
+            "italic": false,
+            "link-target-blank": true,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "subtitle2"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "fpDoUMsBUm": {
+          "custom": {},
+          "displayName": "Error Message",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "QW6CWy1Z9D",
+          "props": {
+            "data-type": "error-message",
+            "full-width": false,
+            "hide-when-empty": true,
+            "id": "fpDoUMsBUm",
+            "italic": false,
+            "mode": "error",
+            "text-align": "center",
+            "variant": "body1"
+          },
+          "type": {
+            "resolvedName": "ErrorMessage"
+          }
+        },
+        "pnOqEGpL1b": {
+          "custom": {
+            "type": "button"
+          },
+          "displayName": "Button",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "FJm7_vlTEW",
+          "props": {
+            "children": "Use a different number",
+            "color": "primary",
+            "data-type": "button",
+            "formNoValidate": true,
+            "full-width": true,
+            "id": "pnOqEGpL1b",
+            "mode": "primary",
+            "size": "sm",
+            "variant": "link"
+          },
+          "type": {
+            "resolvedName": "Button"
+          }
+        },
+        "resend": {
+          "custom": {
+            "type": "button"
+          },
+          "displayName": "Button",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "FJm7_vlTEW",
+          "props": {
+            "children": "Send again",
+            "color": "primary",
+            "data-type": "button",
+            "formNoValidate": true,
+            "full-width": true,
+            "id": "resend",
+            "mode": "primary",
+            "size": "sm",
+            "variant": "link"
+          },
+          "type": {
+            "resolvedName": "Button"
+          }
+        },
+        "yZNZ2ZVVu_": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "CGBTyRvfUF",
+            "QW6CWy1Z9D",
+            "FJm7_vlTEW"
+          ],
+          "parent": "ROOT",
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "yZNZ2ZVVu_",
+            "justify": "start",
+            "paddingX": "4",
+            "paddingY": "4",
+            "spaceBetween": "2.5",
+            "st-items-grow": 0,
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "id": "CGBTyRvfUF",
+          "label": "Verify OTP code"
+        },
+        {
+          "id": "pnOqEGpL1b",
+          "label": "Use a different number"
+        },
+        {
+          "id": "resend",
+          "label": "Send again"
+        }
+      ],
+      "screenId": "SC2zEcfbM7BE2IQgYV2xCIWlaEXX7"
     },
     {
       "contents": {
@@ -2283,12 +1932,35 @@
           }
         }
       },
-      "interactions": [],
-      "screenId": "SC2ybnacvr5o2sjkDQwLTUrXei0If"
+      "screenId": "SC2zEcfbRDIZGKcTblLxX5DVnvmuH"
     },
     {
       "contents": {
-        "1sMmkeVxVT": {
+        "EbW8KMdjAx": {
+          "custom": {
+            "type": "button"
+          },
+          "displayName": "Button",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "WzZtEzEpyY",
+          "props": {
+            "children": "Choose another authentication method",
+            "data-type": "button",
+            "formNoValidate": false,
+            "full-width": true,
+            "id": "EbW8KMdjAx",
+            "mode": "primary",
+            "size": "sm",
+            "variant": "link"
+          },
+          "type": {
+            "resolvedName": "Button"
+          }
+        },
+        "LgBFKYoM2h": {
           "custom": {},
           "displayName": "Error Message",
           "hidden": false,
@@ -2299,7 +1971,7 @@
           "props": {
             "data-type": "error-message",
             "full-width": false,
-            "id": "1sMmkeVxVT",
+            "id": "LgBFKYoM2h",
             "italic": false,
             "mode": "error",
             "text-align": "center",
@@ -2309,7 +1981,7 @@
             "resolvedName": "ErrorMessage"
           }
         },
-        "LmrSIGOWZb": {
+        "R4ubbo8hKX": {
           "custom": {},
           "displayName": "Text",
           "hidden": false,
@@ -2318,34 +1990,16 @@
           "nodes": [],
           "parent": "ROOT",
           "props": {
-            "children": "You're authenticated, you can close this window now",
+            "children": "Click the link in the email to continue",
             "full-width": false,
-            "id": "LmrSIGOWZb",
+            "id": "R4ubbo8hKX",
             "italic": false,
             "mode": "primary",
             "text-align": "center",
-            "variant": "subtitle1"
+            "variant": "subtitle2"
           },
           "type": {
             "resolvedName": "Text"
-          }
-        },
-        "PUZgvFyUAB": {
-          "custom": {},
-          "displayName": "Image",
-          "hidden": false,
-          "isCanvas": false,
-          "linkedNodes": {},
-          "nodes": [],
-          "parent": "ROOT",
-          "props": {
-            "alt": "Image",
-            "height": "50px",
-            "id": "PUZgvFyUAB",
-            "src": "https://imgs.descope.com/flows/common/v1/green-checkmark.png"
-          },
-          "type": {
-            "resolvedName": "Image"
           }
         },
         "ROOT": {
@@ -2355,9 +2009,228 @@
           "isCanvas": true,
           "linkedNodes": {},
           "nodes": [
-            "PUZgvFyUAB",
-            "LmrSIGOWZb",
-            "1sMmkeVxVT"
+            "hLL454bn-h",
+            "R4ubbo8hKX",
+            "lpP_khmMrA",
+            "WzZtEzEpyY",
+            "LgBFKYoM2h"
+          ],
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "ROOT",
+            "justify": "center",
+            "paddingX": "4",
+            "paddingY": "4",
+            "spaceBetween": "5",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "WzZtEzEpyY": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "resend",
+            "EbW8KMdjAx"
+          ],
+          "parent": "ROOT",
+          "props": {
+            "align": "center",
+            "background": "",
+            "data-editor-type": "container",
+            "direction": "column",
+            "id": "WzZtEzEpyY",
+            "justify": "start",
+            "paddingX": "4",
+            "paddingY": "4",
+            "spaceBetween": "1.5",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "hLL454bn-h": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "We've sent a verification link to {{sentTo.maskedEmail}}",
+            "full-width": false,
+            "id": "hLL454bn-h",
+            "italic": false,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "subtitle1"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "lpP_khmMrA": {
+          "custom": {
+            "type": "polling"
+          },
+          "displayName": "Polling",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "color": "primary",
+            "data-type": "polling",
+            "id": "lpP_khmMrA",
+            "size": "md",
+            "variant": "linear"
+          },
+          "type": {
+            "resolvedName": "PollingLoader"
+          }
+        },
+        "resend": {
+          "custom": {
+            "type": "button"
+          },
+          "displayName": "Button",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "WzZtEzEpyY",
+          "props": {
+            "children": "Send again",
+            "data-type": "button",
+            "formNoValidate": false,
+            "full-width": true,
+            "id": "resend",
+            "mode": "primary",
+            "size": "sm",
+            "variant": "contained"
+          },
+          "type": {
+            "resolvedName": "Button"
+          }
+        }
+      },
+      "interactions": [
+        {
+          "id": "EbW8KMdjAx",
+          "label": "Choose another authentication method"
+        },
+        {
+          "id": "polling",
+          "label": "Polling"
+        },
+        {
+          "id": "resend",
+          "label": "Send again"
+        }
+      ],
+      "screenId": "SC2zEcfbYqoeEfH3K3WIOaGnhGUDe"
+    },
+    {
+      "contents": {
+        "5-PfLGMOsW": {
+          "custom": {},
+          "displayName": "Phone Input",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "lG6BatRNbw",
+          "props": {
+            "bordered": true,
+            "data-errormessage-pattern-mismatch": "Must be a valid phone number",
+            "default-code": "autoDetect",
+            "full-width": true,
+            "id": "5-PfLGMOsW",
+            "label": "",
+            "max": 100,
+            "name": "phone",
+            "pattern": "^\\+?\\d+$",
+            "phone-input-placeholder": "Phone number *",
+            "required": true,
+            "size": "md",
+            "type": "tel"
+          },
+          "type": {
+            "resolvedName": "Phone"
+          }
+        },
+        "5ouALpXpNi": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "PB4s0Xy7gp"
+          ],
+          "parent": "viwDC1zXs_",
+          "props": {
+            "align": "start",
+            "background": "#ffffff00",
+            "data-editor-type": "container",
+            "direction": "row",
+            "id": "5ouALpXpNi",
+            "justify": "center",
+            "paddingX": "2",
+            "paddingY": "0",
+            "spaceBetween": "4",
+            "width": "25%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "PB4s0Xy7gp": {
+          "custom": {
+            "type": "button"
+          },
+          "displayName": "Button",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "5ouALpXpNi",
+          "props": {
+            "children": "Verify",
+            "data-type": "button",
+            "formNoValidate": false,
+            "full-width": true,
+            "id": "PB4s0Xy7gp",
+            "mode": "primary",
+            "size": "md",
+            "variant": "contained"
+          },
+          "type": {
+            "resolvedName": "Button"
+          }
+        },
+        "ROOT": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "pDs3VX2pc6",
+            "SRaw95nrC8",
+            "viwDC1zXs_",
+            "oTK5THV1cc"
           ],
           "props": {
             "align": "center",
@@ -2374,10 +2247,136 @@
           "type": {
             "resolvedName": "Container"
           }
+        },
+        "SRaw95nrC8": {
+          "custom": {
+            "type": "input"
+          },
+          "displayName": "Full Name Input",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "bordered": true,
+            "full-width": true,
+            "id": "SRaw95nrC8",
+            "label": "",
+            "max": 100,
+            "name": "fullName",
+            "placeholder": "Full Name",
+            "required": false,
+            "size": "md",
+            "type": "text"
+          },
+          "type": {
+            "resolvedName": "FullNameInput"
+          }
+        },
+        "lG6BatRNbw": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "5-PfLGMOsW"
+          ],
+          "parent": "viwDC1zXs_",
+          "props": {
+            "align": "start",
+            "background": "#ffffff00",
+            "data-editor-type": "container",
+            "direction": "row",
+            "id": "lG6BatRNbw",
+            "justify": "center",
+            "paddingX": "0",
+            "paddingY": "0",
+            "spaceBetween": "4",
+            "width": "75%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
+        },
+        "oTK5THV1cc": {
+          "custom": {},
+          "displayName": "Error Message",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "data-type": "error-message",
+            "full-width": false,
+            "id": "oTK5THV1cc",
+            "italic": false,
+            "mode": "error",
+            "text-align": "center",
+            "variant": "body1"
+          },
+          "type": {
+            "resolvedName": "ErrorMessage"
+          }
+        },
+        "pDs3VX2pc6": {
+          "custom": {},
+          "displayName": "Text",
+          "hidden": false,
+          "isCanvas": false,
+          "linkedNodes": {},
+          "nodes": [],
+          "parent": "ROOT",
+          "props": {
+            "children": "To complete your sign up, please provide the following information",
+            "full-width": false,
+            "id": "pDs3VX2pc6",
+            "italic": false,
+            "mode": "primary",
+            "text-align": "center",
+            "variant": "subtitle2"
+          },
+          "type": {
+            "resolvedName": "Text"
+          }
+        },
+        "viwDC1zXs_": {
+          "custom": {},
+          "displayName": "Container",
+          "hidden": false,
+          "isCanvas": true,
+          "linkedNodes": {},
+          "nodes": [
+            "lG6BatRNbw",
+            "5ouALpXpNi"
+          ],
+          "parent": "ROOT",
+          "props": {
+            "align": "center",
+            "background": "#ffffff00",
+            "data-editor-type": "container",
+            "direction": "row",
+            "id": "viwDC1zXs_",
+            "justify": "center",
+            "paddingX": "0",
+            "paddingY": "0",
+            "spaceBetween": "0",
+            "width": "100%"
+          },
+          "type": {
+            "resolvedName": "Container"
+          }
         }
       },
-      "interactions": [],
-      "screenId": "SC2ybnadbEWRaXZWz40Emo4pS7WqL"
+      "interactions": [
+        {
+          "id": "PB4s0Xy7gp",
+          "label": "Verify"
+        }
+      ],
+      "screenId": "SC2zEcfcl1X0SYbrArWLbWwIxLFEw"
     }
   ]
 }
