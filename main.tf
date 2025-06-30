@@ -52,13 +52,6 @@ resource "descope_project" "my_project" {
           "port" = "587"
         }
       }
-    ],
-    "http": [
-      {
-        name        = "My Custom Connector"
-        description = "Custom HTTP Connector"
-        base_url    = "https://api.example.com"
-      }
     ]
   }
 }
