@@ -1,2 +1,2 @@
-variable "management_key" {K2y0PrJihLqvmjLsS6TlbglvAI6EHzF369aBZlvageNOHHPGJmOoc5KXiQ1dNdF4ffKJ1de}
-variable "project_id" {P2zEcfTElOvg2uLUfwdkwFW0AvS5}
+variable "management_key" {}
+variable "project_id" {}
